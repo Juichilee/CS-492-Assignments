@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Juichi Lee\'s Basic Weather App</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="prob_rain">Prob Rain</string>
+    <string name="short_desc">Short Desc.</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+</resources>

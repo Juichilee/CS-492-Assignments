@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:title="Forecast Units"
+        android:key="pref_units"
+        android:dialogTitle="Forecast Units"
+        android:entries="@array/pref_units_entries"
+        android:entryValues="@array/pref_units_values"
+        android:defaultValue="standard"
+        app:useSimpleSummaryProvider="true"/>
+    <EditTextPreference
+        android:title="Forecast Location"
+        android:key="pref_location"
+        android:defaultValue="Corvallis"
+        app:useSimpleSummaryProvider="true"/>
+
+</PreferenceScreen>

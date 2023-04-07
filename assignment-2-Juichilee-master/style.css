@@ -1,0 +1,203 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Juichi Lee
+ * email: leejuic@oregonstate.edu
+ */
+html, body {
+    overflow-x: hidden;
+    overflow: visible;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.header-image-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 70px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    top: 45px;
+    left: 190px;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.filter-container {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 210px;
+    height: 400px;
+    background-color: #e4e1da;
+    font-family: Roboto;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.filter-container .filter-input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.filter-container .filter-input-element {
+    margin-left: 10px;
+}
+
+.filter-container input{
+    width: 170px;
+    border-radius: 3px;
+    border-style: hidden;
+}
+
+.filter-container input[name = filter-min-price] {
+    width: 65px;
+    margin-left: 0px;
+    margin-right: 13px;
+    padding-left: 5px;
+}
+
+.filter-container input[name = filter-max-price] {
+    width: 65px;
+    padding-left: 5px;
+}
+
+.filter-container select{
+    width: 173px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.filter-input-container .filter-fieldset div {
+    width: 100px;
+    padding-right: 90px;
+    margin-left: -8px;
+}
+
+.filter-input-container div input[type = checkbox] {
+    width: 25px;
+}
+
+.filter-container button {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 210px;
+}
+
+.filter-container button:hover{
+    color: black;
+    background-color: #e8c4a5;
+}
+
+#results {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result-contents {
+    border: solid #e4e1da thin;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+}
+
+.result-contents img {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 270px;
+    object-fit: scale-down;
+}
+
+.result-info-container {
+    position: relative;
+    top: 25px;
+    width: 250px;
+}
+
+.result-info-container a {
+    color: #eb7632;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.result-info-container a:hover {
+    text-decoration: underline;
+}
+
+.result-info-container .result-price {
+    padding: 3px;
+    font-size: 12px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: gray;
+    background-color: #e4e1da;
+}
+
+button[type = button] {
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background-color: #eb7632;
+    font-size: 28px;
+    box-shadow: 4px 4px rgba(0,0,0, 0.1);
+}
+
+button[type = button]:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
